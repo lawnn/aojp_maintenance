@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="android" name="aojp/android" />
+  <project path="android" name="aojp/android" remote="private" />
+
+  <remove-project path="frameworks/base" name="aojp/android_frameworks_base" />
+  <project path="frameworks/base" name="aojp/android_frameworks_base" remote="private" />
+
+  <remove-project path="vendor/cm" name="aojp/android_vendor_cm" />
+  <project path="vendor/cm" name="aojp/android_vendor_cm" remote="private" />
+
+  <remove-project path="vendor/aojp" name="aojp/android_vendor_aojp" />
+  <project path="vendor/aojp" name="aojp/android_vendor_aojp" remote="private" />
+
+  <!-- vendor -->
+  <project name="kbc-developers/proprietary_vendor_samsung" path="vendor/samsung" remote="private" />
+
+  <!-- recovery -->
+  <remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
+  <project name="kbc-developers/android_cwm_recovery" path="bootable/recovery" remote="private" />
+
+  <!-- msm common -->
+  <project name="kbc-developers/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="private" />
+  <project name="kbc-developers/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="private" />
+  <project name="kbc-developers/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="private" />
+  <project name="kbc-developers/android_kernel_samsung_d2dcm" path="kernel/samsung/d2dcm" remote="private" />
+  <project name="kbc-developers/android_kernel_samsung_msm8660" path="kernel/samsung/msm8660-dcm" remote="private" />
+
+  <!-- exynos common -->
+  <project name="kbc-developers/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="private" />
+  <project name="kbc-developers/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="private" />
+  <project name="kbc-developers/kernel_samsung_exynos4412" path="kernel/samsung/exynos4412dcm" revision="kbc-cyanogen-cm-11.0" remote="private" />
+  <project name="kbc-developers/android_hardware_samsung" path="hardware/samsung" remote="private" />
+
+
+  <!-- sc04e -->
+  <project name="kbc-developers/android_kernel_samsung_jfdcm" path="kernel/samsung/jfdcm" revision="kbc-aosp-kk" remote="private" />
+  <project name="kbc-developers/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="private" />
+  <project name="kbc-developers/android_device_samsung_jfltedcm" path="device/samsung/jfltedcm" remote="private" />
+
+  <!-- sc06d -->
+  <project name="kbc-developers/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private" />
+  <project name="kbc-developers/android_device_samsung_d2dcm" path="device/samsung/d2dcm" remote="private" />
+
+  <!-- sc05d -->
+  <project name="kbc-developers/android_device_samsung_quincy-common" path="device/samsung/quincy-common" remote="private" />
+  <project name="kbc-developers/android_device_samsung_quincydcm" path="device/samsung/quincydcm" remote="private" />
+
+  <!-- sc03e -->
+  <project name="kbc-developers/android_device_samsung_sc03e" path="device/samsung/sc03e" remote="private" />
+
+</manifest>
